@@ -1,0 +1,1 @@
+C:\Users\Seeed05\source\repos\RPiRelayBoard\RPiRelayBoard\RPiRelayBoard.csproj;x86

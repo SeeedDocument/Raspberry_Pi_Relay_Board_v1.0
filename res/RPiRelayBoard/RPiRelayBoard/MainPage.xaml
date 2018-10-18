@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="RPiRelayBoard.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RPiRelayBoard"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Loading="Grid_Loading">
+        <TextBlock x:Name="tbTips" HorizontalAlignment="Left" Margin="10,10,0,0" Text="Select a relay" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cboRelay" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="135"/>
+        <Button x:Name="btnRelayControl" Content="On" HorizontalAlignment="Left" Margin="150,35,0,0" VerticalAlignment="Top" Width="65" Click="btnControlRelay_Click"/>
+        <Button x:Name="btnRelayToggle" Content="Toggle" HorizontalAlignment="Left" Margin="220,35,0,0" VerticalAlignment="Top" Width="65" Click="btnRelayToggle_Click"/>
+        <Button x:Name="btnOnAllRelays" Content="On All Relays" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="135" Click="btnOnAllRelays_Click"/>
+        <Button x:Name="btnOffAllRelays" Content="Off All Relays" HorizontalAlignment="Left" Margin="150,72,0,0" VerticalAlignment="Top" Width="135" Click="btnOffAllRelays_Click"/>
+        
+    </Grid>
+</Page>
